@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in Haskell:  the implicit assumption of homogeneous lists when using functions like Data.List.sort. The `bug.hs` file shows the flawed code, which crashes if given a list containing elements of different types. The `bugSolution.hs` file provides a more robust solution with improved type handling and error management.
